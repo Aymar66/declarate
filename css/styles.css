@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    height: 100%;
+    background-color:antiquewhite;
+    background: url(../img/img2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.contenedor{
+    display: block;
+    align-items: center;
+    text-align: center;
+    padding: 250px;
+    
+}
+.in-flex h2{
+    box-shadow: 0px 0px 20px 10px black,
+                0px 0px 20px 10px orchid,
+                0px 0px 2px 10px black,
+                0px 0px 2px 10px black;
+
+    margin: 10px;
+    text-align: center;
+    position: relative;
+    left: -50%;
+    font-size: 40px;
+}
+.in-flex button{
+    padding: 30px;
+    background: #fff;
+    border-radius: 20px;
+    margin: 60px;
+    box-shadow: 2px 10px 20px 3px black,
+                2px 10px 20px 8px orchid,
+                2px 10px 20px 10px black;
+                font-size: xx-large;
+                padding: 0.75em;
+    
+}
+.in-flex button:hover{
+    background-color: cornflowerblue;
+    color: azure;
+    box-shadow:  2px 10px 20px 3px green,
+                2px 10px 20px 8px orchid,
+                2px 10px 20px 10px green;
+}
+#yesBtn{
+    transform: translate(-100%,0);
+}
+
+#noBtn{
+    position: absolute;
+}
+.home{
+    display: flex;
+    flex-wrap: wrap;
+}
+.in-flex{
+    flex:1;
+    min-width: 250px;
+}
+.contenedor:first-child{
+    flex:2;
+    padding: 25px;
+    background: #fff;
+    margin: 20px;    
+    margin-bottom: 0px;
+
+}
+.in-flex div{
+    padding: 25px;
+    background: #fff;    
+    margin: 20px;
+}
+
+
+
